@@ -1,4 +1,4 @@
-#AI Terrain Mapper for Off-Road Navigation
+##AI Terrain Mapper for Off-Road Navigation
 
 An intelligent image-processing tool that breaks down off-road scenes pixel-by-pixel. By classifying everything from vegetation to obstacles, this project provides the "eyes" for self-driving vehicles, ensuring they can distinguish between a clear path and a dangerous barrier.
 ---
