@@ -1,7 +1,6 @@
-# Variant 4: Off-Road Semantic Segmentation with MobileNetV2 U-Net
+#AI Terrain Mapper for Off-Road Navigation
 
-A deep learning pipeline for pixel-wise semantic segmentation of off-road driving scenes, built using a U-Net architecture with a MobileNetV2 encoder.
-
+An intelligent image-processing tool that breaks down off-road scenes pixel-by-pixel. By classifying everything from vegetation to obstacles, this project provides the "eyes" for self-driving vehicles, ensuring they can distinguish between a clear path and a dangerous barrier.
 ---
 
 ## Overview
