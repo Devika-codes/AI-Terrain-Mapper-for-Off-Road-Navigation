@@ -1,0 +1,5 @@
+Variant Name: variant_4
+Best Validation IoU: 0.5309
+Model File: variant_4_best.pth
+Loss Graph: variant_4_loss.png
+IoU Graph: variant_4_iou.png

@@ -1,0 +1,9 @@
+{
+    "name": "variant_4",
+    "seed": 99,
+    "encoder": "mobilenet_v2",
+    "lr": 0.0007,
+    "batch_size": 8,
+    "epochs": 9,
+    "optimizer": "adamw"
+}
