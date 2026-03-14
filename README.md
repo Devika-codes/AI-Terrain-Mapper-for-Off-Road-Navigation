@@ -80,49 +80,6 @@ pip install torch torchvision segmentation-models-pytorch opencv-python numpy ma
 
 ---
 
-## Running Inference
-
-To run the model on a new image using the pretrained weights:
-
-```bash
-python inference.py
-```
-
-Make sure `variant_4_best.pth` and your input image are in the same directory.
-
----
-
-## Training from Scratch
-
-1. Download the off-road segmentation dataset and place it as:
-
-```
-dataset/
-├── train/
-│   ├── Color_Images/
-│   └── Segmentation/
-└── val/
-    ├── Color_Images/
-    └── Segmentation/
-```
-
-2. Update the dataset paths in `train_variant.py`:
-
-```python
-TRAIN_IMG_DIR = "path/to/dataset/train/Color_Images"
-TRAIN_MASK_DIR = "path/to/dataset/train/Segmentation"
-VAL_IMG_DIR = "path/to/dataset/val/Color_Images"
-VAL_MASK_DIR = "path/to/dataset/val/Segmentation"
-```
-
-3. Run training:
-
-```bash
-python train_variant.py
-```
-
----
-
 ## Loss Function
 
 A combined loss is used for training:
